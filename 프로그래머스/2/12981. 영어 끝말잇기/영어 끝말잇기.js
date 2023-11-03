@@ -13,7 +13,5 @@ function solution(n, w) {
     if( r%n !=0) f = r%n;
     else f = n;
     
-    
-    
     return [f,b];
 }
