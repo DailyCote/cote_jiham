@@ -1,9 +1,5 @@
 function solution(m) {
-    m = m.split(' ').map(i=>{
-        if(Number(i) == typeof(1)){
-            return Number(i)
-        }else return i
-    });
+    m = m.split(' ')
     let num = 0;
     let count = 0;
     for(let i=0; i<m.length; i++){
