@@ -25,7 +25,6 @@ function solution(a) {
         }
         result.push(count);
     }
-    //console.log(result)
     let maxScore = Math.max(...result);
     return result.reduce((acc, current, index) => {
     if (current === maxScore) {
