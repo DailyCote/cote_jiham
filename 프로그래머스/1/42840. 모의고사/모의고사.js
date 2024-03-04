@@ -9,9 +9,7 @@ function solution(a) {
         if(ab[i].length<a.length) ab1.push(ab[i].join('').repeat(a.length-ab[i].length).split(''))
         else ab1.push(ab[i])
     }
-    //console.log(ab1)
     let ab2 = ab1.map(a=> a.map(Number));;
-     // console.log(ab2)
     let arr = [];
     for(let i=0; i<ab2.length; i++){
         if(ab2[i].length >a.length) arr.push(ab2[i].slice(0,a.length))
